@@ -1,0 +1,33 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1280px) { 
+}
+/* Tablet Layout : 768px; */ 
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+    .single-table{ margin-bottom: 10px;}
+    .single-facts {
+    margin-bottom: 50px;
+    }
+    .copyright{text-align: center;padding-bottom: 15px;}
+    .social-feed{ text-align: center;float: none;}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+    .single-table {
+    margin-bottom: 50px;
+    }
+    .single-facts {
+    margin-bottom: 15px;
+    text-align: center;
+    }
+    .name-field input[type="text"]{
+        margin-bottom: 15px;
+    }
+    .copyright{ padding-bottom: 10px;}
+    .copyright p{ font-size: 16px;}
+    .social-feed{float: none;}
+    ul.social-link li a{font-size: 14px;display: inline-block;margin-bottom: 5px;padding: 8px;}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+    
+}
